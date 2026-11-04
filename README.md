@@ -15,7 +15,7 @@ A public dbt + DuckDB pipeline over ~692k real job postings, rebuilt and republi
 | **dbt pipeline** | sources → cleaned model → insight marts | [`analytics/models/`](https://github.com/Phuc157/dbt_Analytics_Engineering_Course/blob/main/project_1/analytics/models) |
 | **Data tests** | `unique` / `not_null` on every mart grain | [`schema.yml`](https://github.com/Phuc157/dbt_Analytics_Engineering_Course/blob/main/project_1/analytics/models/schema.yml) |
 | **Hosted dbt docs** | lineage, descriptions, column tests | [Live docs site](https://phuc157.github.io/dbt-duckdb-pipeline/) |
-| **Public CI** | build + test + publish on every push | [Actions workflow](https://github.com/Phuc157/dbt_Analytics_Engineering_Course/actions/workflows/dbt_build.yml) |
+| **Public CI** | build + test + publish on every push | [Actions workflow](https://github.com/Phuc157/dbt-duckdb-pipeline/actions) |
 | **Environments** | local `dev` vs CI `prod` targets | [`ci/profiles.yml`](https://github.com/Phuc157/dbt_Analytics_Engineering_Course/blob/main/project_1/ci/profiles.yml) |
 | **Published warehouse** | one `ATTACH`, queryable by anyone | [Query it](https://github.com/Phuc157/dbt_Analytics_Engineering_Course/blob/main/project_1/README.md#query-the-published-warehouse) |
 
